@@ -1,4 +1,4 @@
-FROM 10.168.12.103:5001/xujian/java:8
+FROM registry.cn-shenzhen.aliyuncs.com/xuu/java:8u191
 
 RUN mkdir /app && mkdir /upload
 WORKDIR /app
