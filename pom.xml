@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.xuu54</groupId>
     <artifactId>http-file-server</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>http-file-server</name>
     <description>Http File Server</description>
 
