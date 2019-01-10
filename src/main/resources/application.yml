@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /fileserver
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      ## 文件上传目录，根据实际情况修改
+      location: /upload
+#      location: /Users/janjan/Downloads
+      ## 文件大小阈值，当大于这个阈值时将写入到磁盘，否则在内存中。默认值为0
+      file-size-threshold: 1MB
+      ## 文件的最大大小，单位为字节。默认没有限制
+      max-file-size: 50MB
